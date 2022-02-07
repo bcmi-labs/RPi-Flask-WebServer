@@ -11,9 +11,8 @@ app = Flask(__name__)
 #GPIO.setwarnings(False)
 
 #define sensors GPIOs
-#@TODO: below fake gpios, fixme
-button1 = 12
-button2 = 13
+button1 = 163
+button2 = 164
 
 #define actuators GPIOs
 gpio0 = 160
